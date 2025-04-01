@@ -1,3 +1,4 @@
+// Actividad en clase 4 - Juan Diego Susunaga Actividad 2.1 
 #include <iostream>
 #include <string>
 
