@@ -25,10 +25,15 @@ long long prhf(string s) {
 }
 
 // Prueba con casos básicos
-TEST(HashFunctionTest, BasicCases) {
+TEST(hash_function_test, basic_cases) {
     EXPECT_EQ(prhf("abc"), 2946);
     EXPECT_EQ(prhf("hello"), 99162322);
     EXPECT_EQ(prhf("test"), 120129);
+}
+
+TEST(hash_function_test, edge_cases) {
+    EXPECT_EQ(prhf(""), 0);  
+    EXPECT_EQ(prhf("a"), 1);
 }
 
 
