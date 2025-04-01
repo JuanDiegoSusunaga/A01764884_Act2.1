@@ -1,8 +1,12 @@
-// Actividad en clase 4 - Juan Diego Susunaga Actividad 2.1 
-#include <iostream>
+/*
+ * Archivo: actividad_2_1.cpp
+ * Descripción: Implementación de una función de hash polinómico para calcular el valor hash de una cadena.
+ * Autor: Juan Diego Susunaga
+ * Matrícula: A01764884
+ * Fecha: 31/03/2025
+ */#include <iostream>
 #include <string>
 
-// Juan Diego Susunaga - A01764884 - ACTIVIDAD EN CLASE
 using namespace std;
 
 long long prhf(string s) {
