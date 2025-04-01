@@ -32,9 +32,10 @@ TEST(hash_function_test, basic_cases) {
 }
 
 TEST(hash_function_test, edge_cases) {
-    EXPECT_EQ(prhf(""), 0);  
+    EXPECT_EQ(prhf(""), 0);
     EXPECT_EQ(prhf("a"), 1);
 }
+
 
 
 // Función main para ejecutar las pruebas
