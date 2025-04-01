@@ -37,7 +37,6 @@ TEST(hash_function_test, edge_cases) {
 }
 
 
-
 // Función main para ejecutar las pruebas
 int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);
